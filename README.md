@@ -79,10 +79,15 @@ Mostrar una lista completa y detallada de los vehículos disponibles para renta,
 Descripción de código php para el archivo cars.php
 
  
-Este código PHP define una clase llamada `Cars` que actúa como controlador en una aplicación web. Aquí está lo que hace cada parte del código:
-La classe Cars extends Controller`: Define una clase llamada `Cars` que hereda de la clase `Controller`. Esto sugiere que el controlador está utilizando algún tipo de patrón de diseño MVC (Modelo-Vista-Controlador).
-`public function __construct() {...}`: Define el constructor de la clase `Cars`. Este constructor inicia una sesión PHP con `session_start()` y luego llama al constructor de la clase padre con `parent::__construct()`. Esto indica que la clase padre (`Controller`) realiza algunas tareas de inicialización importantes.
-`public function index() {...}`: Define un método llamado `index()`, que es el controlador para la página principal de la sección de vehículos. Dentro de este método, se define un array asociativo llamado `$data` que contiene algunas variables como `active`, `title`, `detail` y `vehiculos`. Luego, se llama a un método `getVehiculos()` del modelo (asumiendo que `$this->model` es una instancia del modelo asociado) para obtener una lista de vehículos, y finalmente se llama al método `getView()` para renderizar la vista de la página de vehículos (`cars.php`) pasando el array `$data`.
-`public function single($valor) {...}`: Define un método llamado `single()` que toma un parámetro `$valor`. Este método es responsable de mostrar los detalles de un vehículo específico. Dentro del método, se obtiene el ID del vehículo del parámetro `$valor`, luego se llama al método `getVehiculo()` del modelo para obtener los detalles de ese vehículo en particular. Finalmente, se renderiza la vista de la página de detalles del vehículo (`car-single.php`) pasando los detalles del vehículo como datos.
+Este código PHP define una clase llamada Cars que actúa como controlador en una aplicación web. Aquí está lo que hace cada parte del código:
+La classe Cars extends Controller: Define una clase llamada Cars que hereda de la clase Controller. Esto sugiere que el controlador está utilizando algún tipo de patrón de diseño MVC (Modelo-Vista-Controlador).
+
+public function __construct() {...}: Define el constructor de la clase Cars. Este constructor inicia una sesión PHP con session_start() y luego llama al constructor de la clase padre con parent::__construct(). Esto indica que la clase padre (Controller) realiza algunas tareas de inicialización importantes.
+
+public function index() {...}: Define un método llamado Index(), que es el controlador para la página principal de la sección de vehículos. Dentro de este método, se define un array asociativo llamado $data que contiene algunas variables como active, title, detail y vehiculos. Luego, se llama a un método getVehiculos() del modelo (asumiendo que $this->model es una instancia del modelo asociado) para obtener una lista de vehículos, y finalmente se llama al método getView() para renderizar la vista de la página de vehículos (cars.php) pasando el array $data.
+
+public function single($valor) {...}: Define un método llamado single() que toma un parámetro $valor. Este método es responsable de mostrar los detalles de un vehículo específico. Dentro del método, se obtiene el ID del vehículo del parámetro $valor, luego se llama al método getVehiculo() del modelo para obtener los detalles de ese vehículo en particular. 
+
+Finalmente, se renderiza la vista de la página de detalles del vehículo (car-single.php) pasando los detalles del vehículo como datos.
 
 
