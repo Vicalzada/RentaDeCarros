@@ -63,6 +63,24 @@ A lo largo de este documento, examinaremos las razones por las cuales optamos po
 En última instancia, este documento servirá como guía inicial para el desarrollo de nuestra página web, proporcionando una visión general del enfoque metodológico y las herramientas tecnológicas que utilizaremos para llevar a cabo este emocionante proyecto.
 
 ------------------------------------------------------------------------
+Instalacion
+Lapagina web trabaja en conjunto a composer, el repositorio ya tiene los archivos requeridos para que trabaje completamente
+
+
+en caso de que no se ejecute hay que instalar composer
+https://getcomposer.org/download/
+
+se instala dentro de la ubicacion del proyecto: con el comando composer install
+![Captura de pantalla 2024-04-25 173115](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e0571adb-3022-4d35-95f1-2452fced7f40)
+
+esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor
+de igual manera si el la carpeta se encuentra con problemas o no ejecuta de manera adecuada es posible actualizar el archivo con el siguiente comando
+
+composer update
+
+![Captura de pantalla 2024-04-25 173100](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/db4bde73-4a5d-4370-812e-f03e9c8a95f3)
+
+
 
 Desarrollo
 
