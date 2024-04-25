@@ -45,15 +45,21 @@ Descripción para el código del archivo index.php del administrador de propieda
 Conclusiones	13
 
 Referencias	13
-
+___________________________________________________________________
 Resumen
+
 El crea una página web para una inmobiliaria ofrece numerosas ventajas, como mayor accesibilidad para los clientes, publicidad inmobiliaria a menor costo y una mejor imagen de la agencia. Algunas de las ventajas más destacadas incluyen una inversión mínima, una mejor imagen de la agencia, la oportunidad de llegar a un público más amplio, ofrecer un servicio 24 horas y ofrecer un servicio de atención al cliente más eficiente a través de secciones de preguntas frecuentes . 
 Además, tener una página web para una inmobiliaria es esencial en el mundo digital actual, ya que la mayoría de los usuarios buscan información online sobre propiedades antes de acercarse a una inmobiliaria. Esto aumenta el éxito inmobiliario al insertar la agencia en el mundo de los negocios digitales. Al crear una página web para una inmobiliaria, es importante tener una plantilla que se adapa a las necesidades del negocio y agregar y editar contenido relevante, como información sobre el negocio, los servicios que se ofrecen, las propiedades disponibles y la información de contacto. 
+
+-_____________________________________________________________________
 Introducción
+
 En el mundo actual, la presencia en línea se ha vuelto indispensable para cualquier negocio que busque alcanzar su máximo potencial y llegar a una audiencia más amplia. En este contexto, la creación de una página web para un servicio de renta de autos se presenta como una estrategia fundamental para posicionarse en el mercado y ofrecer una experiencia completa y accesible a los clientes.
 El propósito de este documento es introducir el proyecto de desarrollo de una página web para nuestro servicio de renta de autos, utilizando el modelo MVC (Modelo-Vista-Controlador) con PHP. Exploraremos los fundamentos de este modelo arquitectónico y cómo aplicarlo de manera efectiva para crear una plataforma web dinámica, robusta y fácil de mantener.
 A lo largo de este documento, examinaremos las razones por las cuales optamos por el modelo MVC para nuestro proyecto, sus ventajas y beneficios en términos de estructura, modularidad y mantenimiento del código. Además, describiremos los componentes clave de nuestro servicio de renta de autos y cómo serán implementados dentro del modelo MVC.
 En última instancia, este documento servirá como guía inicial para el desarrollo de nuestra página web, proporcionando una visión general del enfoque metodológico y las herramientas tecnológicas que utilizaremos para llevar a cabo este emocionante proyecto.
+
+------------------------------------------------------------------------
 Desarrollo
 
 crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
@@ -193,14 +199,14 @@ public function eliminar(int $id) {...}: Define un método llamado eliminar() qu
 public function buscarVehiculo() {...}: Define un método llamado buscarVehiculo() que se encarga de buscar vehículos en la base de datos según un término de búsqueda proporcionado. Este método se utiliza para la funcionalidad de búsqueda en tiempo real y devuelve los resultados en formato JSON.
 
 
-
+_________________________________________
 
 
 Conclusiones
 
 En resumen, crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
 
-
+-_______________________________________________________________
 
 
 Referencias
