@@ -64,13 +64,14 @@ En última instancia, este documento servirá como guía inicial para el desarro
 
 ------------------------------------------------------------------------
 Instalacion
-Lapagina web trabaja en conjunto a composer, el repositorio ya tiene los archivos requeridos para que trabaje completamente
 
+La pagina web trabaja en conjunto a composer, el repositorio ya tiene los archivos requeridos para que trabaje completamente
 
 en caso de que no se ejecute hay que instalar composer
+comparto la pagina de descarga 
 https://getcomposer.org/download/
 
-se instala dentro de la ubicacion del proyecto: con el comando composer install
+Esto se instala dentro de la ubicacion del proyecto: con el comando composer install
 ![Captura de pantalla 2024-04-25 173115](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e0571adb-3022-4d35-95f1-2452fced7f40)
 
 esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor
