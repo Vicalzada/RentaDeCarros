@@ -9,7 +9,7 @@ Ingeniería en Sistemas Computacionales.
 Grupo 8S2.		Programación PHP con MVC.
 
 21 de marzo de 2024.
-
+_____________________________________________________________________________________
 Índice
 
 Resumen	1
@@ -197,18 +197,29 @@ public function buscarVehiculo() {...}: Define un método llamado buscarVehiculo
 
 
 Conclusiones
+
 En resumen, crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
 Referencias
 
 Redacción, A. (2023, June 5). ¿Cómo funciona la renta de autos? Nos Mueves Tú. https://blog.veico.com/como-funciona-la-renta-de-autos/
+
 La nueva forma de rentar un auto - Mex Rent a Car. (n.d.). https://mexrentacar.com/es/descubre/1-renta-autos-la-nueva-forma-de-rentar-un-auto
+
+
 México, E. R. (n.d.). ¿Cómo rentar un auto en México? | Enterprise México. Enterprise Rent-A-Car. https://enterprise.mx/renta-de-auto-en-mexico
+
 Políticas de renta de autos. (n.d.). Políticas de renta de autos. Políticas De Renta De Autos. https://nationalcar.com.mx/politicas-de-renta
+
 Redacción. (2024, January 18). ¿Cómo funciona el depósito de renta de autos? Nos Mueves Tú. https://blog.veico.com/como-funciona-el-deposito-de-renta-de-autos/
+
 PHP: ¿Qué es PHP? - Manual. (n.d.). https://www.php.net/manual/es/intro-whatis.php
+
 PHP: Iteración de objetos - Manual. (n.d.). https://www.php.net/manual/es/language.oop5.iterations.php
+
 PHP: Constantes de clases - Manual. (n.d.). https://www.php.net/manual/es/language.oop5.constants.php
+
 XAMPP installers and downloads for Apache Friends. (n.d.). https://www.apachefriends.org/es/index.html
+
 
 
 
