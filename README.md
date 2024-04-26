@@ -50,9 +50,9 @@ ___________________________________________________________________
 
 Resumen
 
-El crea una página web para una inmobiliaria ofrece numerosas ventajas, como mayor accesibilidad para los clientes, publicidad inmobiliaria a menor costo y una mejor imagen de la agencia. Algunas de las ventajas más destacadas incluyen una inversión mínima, una mejor imagen de la agencia, la oportunidad de llegar a un público más amplio, ofrecer un servicio 24 horas y ofrecer un servicio de atención al cliente más eficiente a través de secciones de preguntas frecuentes . 
-Además, tener una página web para una inmobiliaria es esencial en el mundo digital actual, ya que la mayoría de los usuarios buscan información online sobre propiedades antes de acercarse a una inmobiliaria. Esto aumenta el éxito inmobiliario al insertar la agencia en el mundo de los negocios digitales. Al crear una página web para una inmobiliaria, es importante tener una plantilla que se adapa a las necesidades del negocio y agregar y editar contenido relevante, como información sobre el negocio, los servicios que se ofrecen, las propiedades disponibles y la información de contacto. 
+Este ensayo analiza el diseño de una página web dedicada a la renta de automóviles, destacando su importancia en la experiencia del usuario y su impacto en el exito del negocio. En este ensayo se explorara cómo elementos de la navegacion intuitiva, con un diseño responsivo y la presentacion clara de la informacion que haga que influya en la eficiencia del proyecto, asi se podra atraer y retener clientes. Además, se examina la integracion de caracteristicas especiales que generan confianza, opciones de personalizacion y herramientas de soporte para un buen manejo de usabilidad y satisfaccion hacia el usuario.
 
+se integra una estrategia de diseño en cuanto la accesibilidad, seguridad y confianza para garantizar una experiencia positiva hacia el usuario y el cliente comprometiendolo al mercado de renta de vehiculos.
 -_____________________________________________________________________
 
 Introducción
@@ -65,19 +65,24 @@ En última instancia, este documento servirá como guía inicial para el desarro
 ------------------------------------------------------------------------
 Instalacion
 
+Este trabajo se ejecuta bajo el servidor local XAMMP, este servidor maneja un servidor local con la utilizacion del puertos del mismo sistema esto para la ejecucion de archivos php, integra MySql para la gestion de Base de datos.
+
+![Captura de pantalla 2024-04-25 184236](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/d08f53d8-75f8-4795-bc90-8c5db87d2a7a)
+
+
 La pagina web trabaja en conjunto a composer, el repositorio ya tiene los archivos requeridos para que trabaje completamente
 
 en caso de que no se ejecute hay que instalar composer
 comparto la pagina de descarga 
 https://getcomposer.org/download/
 
-Esto se instala dentro de la ubicacion del proyecto: con el comando composer install
+Esto se instala dentro de la ubicacion del proyecto: con el comando: composer install
 ![Captura de pantalla 2024-04-25 173115](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e0571adb-3022-4d35-95f1-2452fced7f40)
 
 esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor
-de igual manera si el la carpeta se encuentra con problemas o no ejecuta de manera adecuada es posible actualizar el archivo con el siguiente comando
 
-composer update
+
+De igual manera si el la carpeta se encuentra con problemas o no ejecuta de manera adecuada es posible actualizar el archivo con el siguiente comando:composer update
 
 ![Captura de pantalla 2024-04-25 173100](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/db4bde73-4a5d-4370-812e-f03e9c8a95f3)
 
