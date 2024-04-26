@@ -90,7 +90,7 @@ De igual manera si el la carpeta se encuentra con problemas o no ejecuta de mane
 
 Desarrollo
 
-crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
+Se crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
 
 El Modelo-Vista-Controlador (MVC) 
 El modelo, vista y controlador es un patrón de diseño de software que separa la lógica de negocios de su visualización. Se utiliza para implementar interfaces de usuario, datos y lógica de control.
