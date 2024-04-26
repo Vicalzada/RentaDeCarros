@@ -12,7 +12,7 @@
                             <div class="icon mr-3">
                                 <span class="icon-map-o"></span>
                             </div>
-                            <p><span>Dirección:</span> Perú</p>
+                            <p><span>Dirección:</span> Mexico CDMX</p>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -20,7 +20,7 @@
                             <div class="icon mr-3">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Telefono:</span> <a href="tel://51900897537">+ 51 900897537</a></p>
+                            <p><span>Telefono:</span> <a href="tel://51900897537">+ 52 551122334455</a></p>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -28,7 +28,7 @@
                             <div class="icon mr-3">
                                 <span class="icon-envelope-o"></span>
                             </div>
-                            <p><span>Correo:</span> <a href="mailto:info@angelsifuentes.net">info@angelsifuentes.net</a></p>
+                            <p><span>Correo:</span> <a href="mailto:vct1986@hotmail.com">vct986@hotmail.com</a></p>
                         </div>
                     </div>
                 </div>
