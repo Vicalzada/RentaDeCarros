@@ -13,39 +13,39 @@ ________________________________________________________________________________
 
 Índice
 
-Resumen	1
+Resumen                                                        	1
 
-Introducción	2
+Introducción	                                                   2
 
-Desarrollo	2
+Desarrollo	                                                     2
 
-El Modelo-Vista-Controlador (MVC)	2
+El Modelo-Vista-Controlador (MVC)                              	2
 
-Diagrama de clases	4
+Diagrama de clases                                             	4
 
-Catálogo de vehículos	5
+Catálogo de vehículos                                          	5
 
-Descripción de código php para el archivo cars.php	6
+Descripción de código php para el archivo cars.php             	6
 
-Listados de propiedades	7
+Listados de propiedades	                                        7
 
-Descripción del código php para el archivo propiedades.php.	7
+Descripción del código php para el archivo propiedades.php.	    7
 
-Galería de imágenes e Información detallada:	8
+Galería de imágenes e Información detallada:                   	8
 
-Descripción para el código del archivo publicación.php.	9
+Descripción para el código del archivo publicación.php.        	9
 
-Formulario de contacto:	10
+Formulario de contacto:	                                        10
 
-Descripción para el código del archivo contacto.php.	10
+Descripción para el código del archivo contacto.php.	           10
 
-Gestión de Propiedades.	11
+Gestión de Propiedades.                                        	11
 
 Descripción para el código del archivo index.php del administrador de propiedades.	12
 
-Conclusiones	13
+Conclusiones	                                                   13
 
-Referencias	13
+Referencias                                                     13
 ___________________________________________________________________
 
 Resumen
@@ -70,7 +70,9 @@ Este trabajo se ejecuta bajo el servidor local XAMMP, este servidor maneja un se
 ![Captura de pantalla 2024-04-25 184236](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/d08f53d8-75f8-4795-bc90-8c5db87d2a7a)
 
 
-La pagina web trabaja en conjunto a composer, el repositorio ya tiene los archivos requeridos para que trabaje completamente
+La pagina web trabaja en conjunto a composer, que es una dependencia que se encarga de realizar las tareas de instalacion de las carpetas, el repositorio ya tiene los archivos requeridos para que trabaje completamente
+
+
 
 en caso de que no se ejecute hay que instalar composer
 comparto la pagina de descarga 
