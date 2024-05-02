@@ -55,7 +55,7 @@ ___________________________________________________________________
 Este ensayo analiza el diseño de una página web dedicada a la renta de automóviles, destacando su importancia en la experiencia del usuario y su impacto en el exito del negocio. En este ensayo se explorara cómo elementos de la navegacion intuitiva, con un diseño responsivo y la presentacion clara de la informacion que haga que influya en la eficiencia del proyecto, asi se podra atraer y retener clientes. Además, se examina la integracion de caracteristicas especiales que generan confianza, opciones de personalizacion y herramientas de soporte para un buen manejo de usabilidad y satisfaccion hacia el usuario.
 
 se integra una estrategia de diseño en cuanto la accesibilidad, seguridad y confianza para garantizar una experiencia positiva hacia el usuario y el cliente comprometiendolo al mercado de renta de vehiculos.
--_____________________________________________________________________
+_____________________________________________________________________
 <h1 align="center"> Introducción</h1>
 
 En el mundo actual, la presencia en línea se ha vuelto indispensable para cualquier negocio que busque alcanzar su máximo potencial y llegar a una audiencia más amplia. En este contexto, la creación de una página web para un servicio de renta de autos se presenta como una estrategia fundamental para posicionarse en el mercado y ofrecer una experiencia completa y accesible a los clientes.
@@ -101,6 +101,7 @@ ahora en la url tecleamos CMD:
 
 
 Esto se instala dentro de la ubicacion del proyecto: con el comando: composer install
+
 ![Captura de pantalla 2024-04-25 173115](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e0571adb-3022-4d35-95f1-2452fced7f40)
 
 esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor.
@@ -110,9 +111,11 @@ En esta parte esta arroja una advertencia que seria por una extencion de php, pa
 ![Captura de pantalla 2024-05-02 153335](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e8474123-693e-44b0-96b3-8d50de681ab3)
 
 nos abrira un bloc de notas y aqui debemos buscar esta extencion gd
+
 ![Captura de pantalla 2024-05-02 153412](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/2fb58294-fe4b-42d0-a194-4093ce6a86e3)
 
 una vez ubicada la etencion = gd le quitamos los ; del principio
+
 ![Captura de pantalla 2024-05-02 153524](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/bd474182-73d7-4ba4-b406-3142a56af30f)
 
 de la misma manera buscamos la extencion zip y procedemos a quitar el ; de la extencion y listo procedemos a cerrar el archivo no sin antes guardar los cambios.
@@ -129,6 +132,7 @@ Quizas aparesca del siguiente modo, sin estilos:
 ![Captura de pantalla 2024-05-02 154233](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/f96dd2ed-87e3-4b19-9cdb-ca1c471d79a2)
 
 ahora lo que se debe realizar es tomar el url del proyecto 
+
 ![Captura de pantalla 2024-05-02 154325](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/06a082b6-56e0-41ee-bc32-47b210f62123)
 
 
