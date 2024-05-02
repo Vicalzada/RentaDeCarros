@@ -1,3 +1,6 @@
+<h1 align="center"> Renta de Carros</h1>
+
+
 Calzada Torres Victor
 
 Ensayo de modelo-vista-controlador de una aplicación web en PHP.
@@ -11,51 +14,49 @@ Grupo 8S2.		Programación PHP con MVC.
 21 de marzo de 2024.
 _____________________________________________________________________________________
 
-Índice
+<h1 align="center"> Indice</h1>
 
-Resumen                                                        	1
+Resumen                                                        	
 
-Introducción	                                                   2
+Introducción	                                                   
 
-Desarrollo	                                                     2
+Desarrollo	                                                     
 
-El Modelo-Vista-Controlador (MVC)                              	2
+El Modelo-Vista-Controlador (MVC)                              
 
-Diagrama de clases                                             	4
+Diagrama de clases                                             
 
-Catálogo de vehículos                                          	5
+Catálogo de vehículos                                        
 
-Descripción de código php para el archivo cars.php             	6
+Descripción de código php para el archivo cars.php             
 
-Listados de propiedades	                                        7
+Listados de propiedades	                                        
 
-Descripción del código php para el archivo propiedades.php.	    7
+Descripción del código php para el archivo propiedades.php.	    
 
-Galería de imágenes e Información detallada:                   	8
+Galería de imágenes e Información detallada:                   	
 
-Descripción para el código del archivo publicación.php.        	9
+Descripción para el código del archivo publicación.php.        	
 
-Formulario de contacto:	                                        10
+Formulario de contacto:	                                        
 
-Descripción para el código del archivo contacto.php.	           10
+Descripción para el código del archivo contacto.php.	           
 
-Gestión de Propiedades.                                        	11
+Gestión de Propiedades.                                        	
 
-Descripción para el código del archivo index.php del administrador de propiedades.	12
+Descripción para el código del archivo index.php del administrador de propiedades.	
 
-Conclusiones	                                                   13
+Conclusiones	                                                   
 
-Referencias                                                     13
+Referencias                                                     
 ___________________________________________________________________
-
-Resumen
+<h1 align="center"> Resumen</h1>
 
 Este ensayo analiza el diseño de una página web dedicada a la renta de automóviles, destacando su importancia en la experiencia del usuario y su impacto en el exito del negocio. En este ensayo se explorara cómo elementos de la navegacion intuitiva, con un diseño responsivo y la presentacion clara de la informacion que haga que influya en la eficiencia del proyecto, asi se podra atraer y retener clientes. Además, se examina la integracion de caracteristicas especiales que generan confianza, opciones de personalizacion y herramientas de soporte para un buen manejo de usabilidad y satisfaccion hacia el usuario.
 
 se integra una estrategia de diseño en cuanto la accesibilidad, seguridad y confianza para garantizar una experiencia positiva hacia el usuario y el cliente comprometiendolo al mercado de renta de vehiculos.
 -_____________________________________________________________________
-
-Introducción
+<h1 align="center"> Introducción</h1>
 
 En el mundo actual, la presencia en línea se ha vuelto indispensable para cualquier negocio que busque alcanzar su máximo potencial y llegar a una audiencia más amplia. En este contexto, la creación de una página web para un servicio de renta de autos se presenta como una estrategia fundamental para posicionarse en el mercado y ofrecer una experiencia completa y accesible a los clientes.
 El propósito de este documento es introducir el proyecto de desarrollo de una página web para nuestro servicio de renta de autos, utilizando el modelo MVC (Modelo-Vista-Controlador) con PHP. Exploraremos los fundamentos de este modelo arquitectónico y cómo aplicarlo de manera efectiva para crear una plataforma web dinámica, robusta y fácil de mantener.
@@ -63,34 +64,90 @@ A lo largo de este documento, examinaremos las razones por las cuales optamos po
 En última instancia, este documento servirá como guía inicial para el desarrollo de nuestra página web, proporcionando una visión general del enfoque metodológico y las herramientas tecnológicas que utilizaremos para llevar a cabo este emocionante proyecto.
 
 ------------------------------------------------------------------------
-Instalacion
+<h1 align="center"> Instalacion</h1>
 
 Este trabajo se ejecuta bajo el servidor local XAMMP, este servidor maneja un servidor local con la utilizacion del puertos del mismo sistema esto para la ejecucion de archivos php, integra MySql para la gestion de Base de datos.
 
 ![Captura de pantalla 2024-04-25 184236](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/d08f53d8-75f8-4795-bc90-8c5db87d2a7a)
+Figura 1. Xammp en ejecucuion
 
 
-La pagina web trabaja en conjunto a composer, que es una dependencia que se encarga de realizar las tareas de instalacion de las carpetas, el repositorio ya tiene los archivos requeridos para que trabaje completamente
-
-
+La pagina web trabaja en conjunto a composer, que es una dependencia que se encarga de realizar las tareas de instalacion de las carpetas, el repositorio ya tiene los archivos requeridos para que trabaje completamente.
 
 en caso de que no se ejecute hay que instalar composer
 comparto la pagina de descarga 
 https://getcomposer.org/download/
 
+![Captura de pantalla 2024-05-02 152330](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/5e694bed-2908-4223-bd12-7ef9a0999b6a)
+
+Ya una vez descargado el paquete de instalacion se da doble clic sobre el instalador y se ejecutara:
+
+![Captura de pantalla 2024-05-02 152423](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/936d580a-f473-4ea9-9a27-d75e90ffa477)
+
+se instala por defecto en nuestro PHP:
+![Captura de pantalla 2024-05-02 152605](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/5079473b-a168-4b78-bada-f7660ec88587)
+
+
+Presionamos siguente y continua con la instalacion:
+![Captura de pantalla 2024-05-02 152555](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/157bd8c7-df53-404b-b4f2-e75822f42754)
+
+Ahora descargamos nuestro proyecto, descomprimimos en la carpeta de xampp>htdocs>rentacar
+
+![Captura de pantalla 2024-05-02 152906](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/d51af779-f6b2-4ba4-b78d-3b3765679e7f)
+
+ahora en la url tecleamos CMD:
+
+![Captura de pantalla 2024-05-02 152959](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/789b3d71-1a3c-4e32-a31a-7dc642ead321)
+
+
 Esto se instala dentro de la ubicacion del proyecto: con el comando: composer install
 ![Captura de pantalla 2024-04-25 173115](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e0571adb-3022-4d35-95f1-2452fced7f40)
 
-esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor
+esto inicializara la descarga dentro la carpeta del proyecto y creara la carpeta ventor.
 
+En esta parte esta arroja una advertencia que seria por una extencion de php, para esto nos dirijimos a xampp y presionamos el boton de config y luego al PHP(php.ini)
 
-De igual manera si el la carpeta se encuentra con problemas o no ejecuta de manera adecuada es posible actualizar el archivo con el siguiente comando:composer update
+![Captura de pantalla 2024-05-02 153335](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/e8474123-693e-44b0-96b3-8d50de681ab3)
+
+nos abrira un bloc de notas y aqui debemos buscar esta extencion gd
+![Captura de pantalla 2024-05-02 153412](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/2fb58294-fe4b-42d0-a194-4093ce6a86e3)
+
+una vez ubicada la etencion = gd le quitamos los ; del principio
+![Captura de pantalla 2024-05-02 153524](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/bd474182-73d7-4ba4-b406-3142a56af30f)
+
+de la misma manera buscamos la extencion zip y procedemos a quitar el ; de la extencion y listo procedemos a cerrar el archivo no sin antes guardar los cambios.
+
+![Captura de pantalla 2024-05-02 153625](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/247d5eec-9854-49b2-abe6-4ca182fc3ad9)
+
+procedemos nuevamente a instalar el composer pero esta vez con el comando comando:composer update
+y quedaria de esta manera.
 
 ![Captura de pantalla 2024-04-25 173100](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/db4bde73-4a5d-4370-812e-f03e9c8a95f3)
 
+Quizas aparesca del siguiente modo, sin estilos:
+
+![Captura de pantalla 2024-05-02 154233](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/f96dd2ed-87e3-4b19-9cdb-ca1c471d79a2)
+
+ahora lo que se debe realizar es tomar el url del proyecto 
+![Captura de pantalla 2024-05-02 154325](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/06a082b6-56e0-41ee-bc32-47b210f62123)
 
 
-Desarrollo
+ahora nos dirijimos al directorio config y abrimos el archivo config en un bloc de notas: 
+
+![Captura de pantalla 2024-05-02 154450](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/c0597bc4-949c-4332-8cdd-cccbccad3ba0)
+
+y en el url colocamos la direccion copiada, es preciso mensionar que debe terminar con una diagonal:
+
+![Captura de pantalla 2024-05-02 154609](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/2e06a1b9-eaed-44a7-aa12-2d0b5c0e875e)
+
+
+guardamos y actualizamos el archivo, y ya se podra ejecutar correctamente con los estilos:
+
+![Captura de pantalla 2024-05-02 154738](https://github.com/Vicalzada/RentaDeCarros/assets/167146583/787ac109-286a-4fee-9283-387d9ec1f873)
+
+
+
+<h1 align="center"> Desarrollo </h1>
 
 Se crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
 
@@ -231,15 +288,13 @@ public function buscarVehiculo() {...}: Define un método llamado buscarVehiculo
 
 _________________________________________
 
-
-Conclusiones
+<h1 align="center"> Conclusiones</h1>
 
 En resumen, crear una página web sobre renta de carros es una inversión importante que puede ayudar a aumentar la visibilidad en línea, generar clientes potenciales, proporcionar información detallada, facilitar reservas en línea, ofrecer atención al cliente y servir como una poderosa herramienta de marketing para hacer crecer tu negocio de renta de carros.
 
 -_______________________________________________________________
 
-
-Referencias
+<h1 align="center"> Referencias</h1>
 
 Redacción, A. (2023, June 5). ¿Cómo funciona la renta de autos? Nos Mueves Tú. https://blog.veico.com/como-funciona-la-renta-de-autos/
 
